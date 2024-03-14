@@ -1,0 +1,10 @@
+.verticalToolbarBox {
+  position: absolute;
+  top: 1.563rem;
+  left: 0.625rem;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}

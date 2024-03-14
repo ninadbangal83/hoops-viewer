@@ -1,0 +1,11 @@
+#canvas {
+  width: 120rem;
+  height: 53rem;
+  /* top: 8rem;
+  left: 8rem; */
+  border: 0.313rem solid gray;
+}
+
+#viewer {
+  height: 100%;
+}

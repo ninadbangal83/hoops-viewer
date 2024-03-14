@@ -1,0 +1,67 @@
+.contextMenu {
+  width: 15.625rem;
+  max-width: 100%;
+  z-index: 100;
+  align-items: top;
+  position: absolute;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  box-shadow: 0.125rem 0.188rem rgb(100, 100, 100);
+}
+
+.cardContent {
+  padding: 0.5rem 1.5rem;
+  background-color: #f5f4ff;
+}
+
+.nodeId {
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+
+.nodeName {
+  padding-bottom: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.menuList {
+  padding-top: 0rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.menuItem {
+  padding: 0.5rem 2rem;
+  margin: 0rem;
+  background-color: white;
+}
+
+.listItemText {
+  text-align: start;
+}
+
+.icon {
+  font-size: x-large;
+  color: black;
+}
+
+.divider {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 0.313rem;
+  right: -1.75rem;
+}
+
+.closeIcon:hover {
+  cursor: pointer;
+}
